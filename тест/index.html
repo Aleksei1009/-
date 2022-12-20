@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Regisration</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <form class="registr">
+                <h1>Авторизация</h1>
+                <div>
+                    <label for="username" class="uname" > Введите email </label>
+                    <input id="username" name="username" required="required" type="email" placeholder="mymail@mail.com"/>
+                </div>
+                <div>
+                    <label for="password" class="pass" > Введите пароль </label>
+                    <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" minlength="6" maxlength="20" pattern="^[a-zA-Z0-9]+$"/>
+                </div>
+                
+                <div class="button">
+                    <input type="submit" value="Войти" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
